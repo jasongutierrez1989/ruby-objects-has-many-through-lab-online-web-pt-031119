@@ -21,4 +21,7 @@ class Patient
       appointment.doctor
     end
   end
+  def self.all
+    self
+  end
 end
